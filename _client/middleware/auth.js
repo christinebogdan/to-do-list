@@ -7,7 +7,7 @@ export default defineNuxtRouteMiddleware(async (to) => {
 
   await initAuth();
   if (sessionStore.isAuthenticated) console.log("authenticated");
-  sessionStore.currentSession;
+  // sessionStore.currentSession;
 });
 
 /**
